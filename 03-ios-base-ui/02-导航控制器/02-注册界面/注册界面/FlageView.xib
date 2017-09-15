@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FlageView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewk-cu-fty">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="80"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t2r-Aw-afv">
+                    <rect key="frame" x="262" y="0.0" width="113" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="113" id="hdb-ag-09M"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="t2r-Aw-afv" secondAttribute="trailing" id="1D2-f4-JKb"/>
+                <constraint firstItem="ewk-cu-fty" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2sd-MN-NfA"/>
+                <constraint firstAttribute="bottom" secondItem="ewk-cu-fty" secondAttribute="bottom" id="TbP-mJ-pmM"/>
+                <constraint firstAttribute="bottom" secondItem="t2r-Aw-afv" secondAttribute="bottom" id="Xc2-mS-uuN"/>
+                <constraint firstItem="ewk-cu-fty" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YHP-c0-y8R"/>
+                <constraint firstItem="t2r-Aw-afv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iuY-e0-Iaj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconView" destination="t2r-Aw-afv" id="2jb-Vh-zI8"/>
+                <outlet property="labelView" destination="ewk-cu-fty" id="RfY-O0-dFn"/>
+            </connections>
+            <point key="canvasLocation" x="341.5" y="343"/>
+        </view>
+    </objects>
+</document>

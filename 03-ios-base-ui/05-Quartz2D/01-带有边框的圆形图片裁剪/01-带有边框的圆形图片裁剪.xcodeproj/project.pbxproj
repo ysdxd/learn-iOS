@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2AEA6181B9E707900FB2636 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEA6171B9E707900FB2636 /* main.m */; };
+		D2AEA61B1B9E707900FB2636 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEA61A1B9E707900FB2636 /* AppDelegate.m */; };
+		D2AEA61E1B9E707900FB2636 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEA61D1B9E707900FB2636 /* ViewController.m */; };
+		D2AEA6211B9E707900FB2636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AEA61F1B9E707900FB2636 /* Main.storyboard */; };
+		D2AEA6231B9E707900FB2636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AEA6221B9E707900FB2636 /* Assets.xcassets */; };
+		D2AEA6261B9E707900FB2636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AEA6241B9E707900FB2636 /* LaunchScreen.storyboard */; };
+		D2AEA6311B9E707900FB2636 /* _1____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEA6301B9E707900FB2636 /* _1____________Tests.m */; };
+		D2AEA63C1B9E707900FB2636 /* _1____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEA63B1B9E707900FB2636 /* _1____________UITests.m */; };
+		D2AEA64B1B9E735700FB2636 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEA64A1B9E735700FB2636 /* UIImage+image.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2AEA62D1B9E707900FB2636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AEA60B1B9E707900FB2636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AEA6121B9E707900FB2636;
+			remoteInfo = "01-带有边框的圆形图片裁剪";
+		};
+		D2AEA6381B9E707900FB2636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AEA60B1B9E707900FB2636 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AEA6121B9E707900FB2636;
+			remoteInfo = "01-带有边框的圆形图片裁剪";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2AEA6131B9E707900FB2636 /* 01-带有边框的圆形图片裁剪.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-带有边框的圆形图片裁剪.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AEA6171B9E707900FB2636 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2AEA6191B9E707900FB2636 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2AEA61A1B9E707900FB2636 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2AEA61C1B9E707900FB2636 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2AEA61D1B9E707900FB2636 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2AEA6201B9E707900FB2636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2AEA6221B9E707900FB2636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2AEA6251B9E707900FB2636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2AEA6271B9E707900FB2636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AEA62C1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-带有边框的圆形图片裁剪Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AEA6301B9E707900FB2636 /* _1____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1____________Tests.m"; sourceTree = "<group>"; };
+		D2AEA6321B9E707900FB2636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AEA6371B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-带有边框的圆形图片裁剪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AEA63B1B9E707900FB2636 /* _1____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1____________UITests.m"; sourceTree = "<group>"; };
+		D2AEA63D1B9E707900FB2636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AEA6491B9E735700FB2636 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		D2AEA64A1B9E735700FB2636 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AEA6101B9E707900FB2636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEA6291B9E707900FB2636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEA6341B9E707900FB2636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2AEA60A1B9E707900FB2636 = {
+			isa = PBXGroup;
+			children = (
+				D2AEA6151B9E707900FB2636 /* 01-带有边框的圆形图片裁剪 */,
+				D2AEA62F1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests */,
+				D2AEA63A1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests */,
+				D2AEA6141B9E707900FB2636 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AEA6141B9E707900FB2636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEA6131B9E707900FB2636 /* 01-带有边框的圆形图片裁剪.app */,
+				D2AEA62C1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests.xctest */,
+				D2AEA6371B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2AEA6151B9E707900FB2636 /* 01-带有边框的圆形图片裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEA6191B9E707900FB2636 /* AppDelegate.h */,
+				D2AEA61A1B9E707900FB2636 /* AppDelegate.m */,
+				D2AEA61C1B9E707900FB2636 /* ViewController.h */,
+				D2AEA61D1B9E707900FB2636 /* ViewController.m */,
+				D2AEA6491B9E735700FB2636 /* UIImage+image.h */,
+				D2AEA64A1B9E735700FB2636 /* UIImage+image.m */,
+				D2AEA61F1B9E707900FB2636 /* Main.storyboard */,
+				D2AEA6221B9E707900FB2636 /* Assets.xcassets */,
+				D2AEA6241B9E707900FB2636 /* LaunchScreen.storyboard */,
+				D2AEA6271B9E707900FB2636 /* Info.plist */,
+				D2AEA6161B9E707900FB2636 /* Supporting Files */,
+			);
+			path = "01-带有边框的圆形图片裁剪";
+			sourceTree = "<group>";
+		};
+		D2AEA6161B9E707900FB2636 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEA6171B9E707900FB2636 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2AEA62F1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEA6301B9E707900FB2636 /* _1____________Tests.m */,
+				D2AEA6321B9E707900FB2636 /* Info.plist */,
+			);
+			path = "01-带有边框的圆形图片裁剪Tests";
+			sourceTree = "<group>";
+		};
+		D2AEA63A1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEA63B1B9E707900FB2636 /* _1____________UITests.m */,
+				D2AEA63D1B9E707900FB2636 /* Info.plist */,
+			);
+			path = "01-带有边框的圆形图片裁剪UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2AEA6121B9E707900FB2636 /* 01-带有边框的圆形图片裁剪 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AEA6401B9E707900FB2636 /* Build configuration list for PBXNativeTarget "01-带有边框的圆形图片裁剪" */;
+			buildPhases = (
+				D2AEA60F1B9E707900FB2636 /* Sources */,
+				D2AEA6101B9E707900FB2636 /* Frameworks */,
+				D2AEA6111B9E707900FB2636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-带有边框的圆形图片裁剪";
+			productName = "01-带有边框的圆形图片裁剪";
+			productReference = D2AEA6131B9E707900FB2636 /* 01-带有边框的圆形图片裁剪.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2AEA62B1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AEA6431B9E707900FB2636 /* Build configuration list for PBXNativeTarget "01-带有边框的圆形图片裁剪Tests" */;
+			buildPhases = (
+				D2AEA6281B9E707900FB2636 /* Sources */,
+				D2AEA6291B9E707900FB2636 /* Frameworks */,
+				D2AEA62A1B9E707900FB2636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AEA62E1B9E707900FB2636 /* PBXTargetDependency */,
+			);
+			name = "01-带有边框的圆形图片裁剪Tests";
+			productName = "01-带有边框的圆形图片裁剪Tests";
+			productReference = D2AEA62C1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2AEA6361B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AEA6461B9E707900FB2636 /* Build configuration list for PBXNativeTarget "01-带有边框的圆形图片裁剪UITests" */;
+			buildPhases = (
+				D2AEA6331B9E707900FB2636 /* Sources */,
+				D2AEA6341B9E707900FB2636 /* Frameworks */,
+				D2AEA6351B9E707900FB2636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AEA6391B9E707900FB2636 /* PBXTargetDependency */,
+			);
+			name = "01-带有边框的圆形图片裁剪UITests";
+			productName = "01-带有边框的圆形图片裁剪UITests";
+			productReference = D2AEA6371B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2AEA60B1B9E707900FB2636 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Gavin;
+				TargetAttributes = {
+					D2AEA6121B9E707900FB2636 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D2AEA62B1B9E707900FB2636 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D2AEA6121B9E707900FB2636;
+					};
+					D2AEA6361B9E707900FB2636 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D2AEA6121B9E707900FB2636;
+					};
+				};
+			};
+			buildConfigurationList = D2AEA60E1B9E707900FB2636 /* Build configuration list for PBXProject "01-带有边框的圆形图片裁剪" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2AEA60A1B9E707900FB2636;
+			productRefGroup = D2AEA6141B9E707900FB2636 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AEA6121B9E707900FB2636 /* 01-带有边框的圆形图片裁剪 */,
+				D2AEA62B1B9E707900FB2636 /* 01-带有边框的圆形图片裁剪Tests */,
+				D2AEA6361B9E707900FB2636 /* 01-带有边框的圆形图片裁剪UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2AEA6111B9E707900FB2636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AEA6261B9E707900FB2636 /* LaunchScreen.storyboard in Resources */,
+				D2AEA6231B9E707900FB2636 /* Assets.xcassets in Resources */,
+				D2AEA6211B9E707900FB2636 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEA62A1B9E707900FB2636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEA6351B9E707900FB2636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AEA60F1B9E707900FB2636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AEA61E1B9E707900FB2636 /* ViewController.m in Sources */,
+				D2AEA64B1B9E735700FB2636 /* UIImage+image.m in Sources */,
+				D2AEA61B1B9E707900FB2636 /* AppDelegate.m in Sources */,
+				D2AEA6181B9E707900FB2636 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEA6281B9E707900FB2636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AEA6311B9E707900FB2636 /* _1____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEA6331B9E707900FB2636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AEA63C1B9E707900FB2636 /* _1____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2AEA62E1B9E707900FB2636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AEA6121B9E707900FB2636 /* 01-带有边框的圆形图片裁剪 */;
+			targetProxy = D2AEA62D1B9E707900FB2636 /* PBXContainerItemProxy */;
+		};
+		D2AEA6391B9E707900FB2636 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AEA6121B9E707900FB2636 /* 01-带有边框的圆形图片裁剪 */;
+			targetProxy = D2AEA6381B9E707900FB2636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2AEA61F1B9E707900FB2636 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AEA6201B9E707900FB2636 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2AEA6241B9E707900FB2636 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AEA6251B9E707900FB2636 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2AEA63E1B9E707900FB2636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2AEA63F1B9E707900FB2636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2AEA6411B9E707900FB2636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-带有边框的圆形图片裁剪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMG.-1------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2AEA6421B9E707900FB2636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-带有边框的圆形图片裁剪/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMG.-1------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2AEA6441B9E707900FB2636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-带有边框的圆形图片裁剪Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMG.-1------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-带有边框的圆形图片裁剪.app/01-带有边框的圆形图片裁剪";
+			};
+			name = Debug;
+		};
+		D2AEA6451B9E707900FB2636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-带有边框的圆形图片裁剪Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMG.-1------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-带有边框的圆形图片裁剪.app/01-带有边框的圆形图片裁剪";
+			};
+			name = Release;
+		};
+		D2AEA6471B9E707900FB2636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-带有边框的圆形图片裁剪UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMG.-1------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-带有边框的圆形图片裁剪";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D2AEA6481B9E707900FB2636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-带有边框的圆形图片裁剪UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XMG.-1------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-带有边框的圆形图片裁剪";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2AEA60E1B9E707900FB2636 /* Build configuration list for PBXProject "01-带有边框的圆形图片裁剪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AEA63E1B9E707900FB2636 /* Debug */,
+				D2AEA63F1B9E707900FB2636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AEA6401B9E707900FB2636 /* Build configuration list for PBXNativeTarget "01-带有边框的圆形图片裁剪" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AEA6411B9E707900FB2636 /* Debug */,
+				D2AEA6421B9E707900FB2636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2AEA6431B9E707900FB2636 /* Build configuration list for PBXNativeTarget "01-带有边框的圆形图片裁剪Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AEA6441B9E707900FB2636 /* Debug */,
+				D2AEA6451B9E707900FB2636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2AEA6461B9E707900FB2636 /* Build configuration list for PBXNativeTarget "01-带有边框的圆形图片裁剪UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AEA6471B9E707900FB2636 /* Debug */,
+				D2AEA6481B9E707900FB2636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2AEA60B1B9E707900FB2636 /* Project object */;
+}
