@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ECAD9D1B1B68AA68007C0DDA"
-               BuildableName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.app"
-               BlueprintName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;"
-               ReferencedContainer = "container:&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.xcodeproj">
+               BuildableName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.app"
+               BlueprintName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;"
+               ReferencedContainer = "container:&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ECAD9D341B68AA68007C0DDA"
-               BuildableName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;Tests.xctest"
-               BlueprintName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;Tests"
-               ReferencedContainer = "container:&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.xcodeproj">
+               BuildableName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;Tests.xctest"
+               BlueprintName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;Tests"
+               ReferencedContainer = "container:&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECAD9D1B1B68AA68007C0DDA"
-            BuildableName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.app"
-            BlueprintName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;"
-            ReferencedContainer = "container:&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.xcodeproj">
+            BuildableName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.app"
+            BlueprintName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;"
+            ReferencedContainer = "container:&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECAD9D1B1B68AA68007C0DDA"
-            BuildableName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.app"
-            BlueprintName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;"
-            ReferencedContainer = "container:&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.xcodeproj">
+            BuildableName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.app"
+            BlueprintName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;"
+            ReferencedContainer = "container:&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECAD9D1B1B68AA68007C0DDA"
-            BuildableName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.app"
-            BlueprintName = "&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;"
-            ReferencedContainer = "container:&#x5fae;&#x535a;&#x4e2a;&#x4eba;&#x8be6;&#x60c5;&#x9875;.xcodeproj">
+            BuildableName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.app"
+            BlueprintName = "&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;"
+            ReferencedContainer = "container:&#24494;&#21338;&#20010;&#20154;&#35814;&#24773;&#39029;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
